@@ -62,9 +62,9 @@ function handleResult() {
 }
 
 function init() {
-  word.addEventListener('input', handleChange)
-  number.addEventListener('input', handleChange)
-  direction.addEventListener('input', handleChange)
+  word.addEventListener('input', handleChange);
+  number.addEventListener('input', handleChange);
+  direction.addEventListener('input', handleChange);
   button.addEventListener('click', handleResult);
 }
 
